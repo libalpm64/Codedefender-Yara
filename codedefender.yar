@@ -3,7 +3,7 @@ rule CodeDefender {
         description = "CodeDefender Signature (BELabs)"
         author = "Libalpm64"
         date = "2025"
-        severity = "High"
+        severity = "Medium"
         category = "Obfuscation"
         confidence = "High"
     
@@ -25,4 +25,5 @@ rule CodeDefender {
         
     condition:
         $pattern1 or $pattern2 or $pattern3 or $pattern4 or $pattern5
+
 }
